@@ -1,12 +1,11 @@
 import 'dart:ui';
 import 'package:flappybird/game/config.dart';
-import 'package:flutter/material.dart';
-import 'package:flame/animation.dart';
 import 'package:flame/components/animation_component.dart';
 import 'package:flame/components/component.dart';
 import 'package:flame/components/composed_component.dart';
 import 'package:flame/flame.dart';
 import 'package:flame/sprite.dart';
+import 'package:flame/animation.dart';
 
 enum BirdStatus { waiting, flying}
 enum BirdFlyingStatus { up, down, none }
